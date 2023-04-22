@@ -26,7 +26,7 @@ function Container() {
   const [search, setSearch] = useState("");
   const [lastSearch, setLastSearch] = useState("");
 
-  const APY_KEY = "7d8851f9";
+  const APY_KEY = "tuapikey";
   const URL = `https://www.omdbapi.com/?apikey=${APY_KEY}&s=${search}`;
 
   /* 
